@@ -1,4 +1,4 @@
-<div align="center">LAB 0</div>
+<h1 align="center">LAB 0</h1>
 
 
 # Table of Content
