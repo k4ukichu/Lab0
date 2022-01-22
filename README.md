@@ -2,24 +2,21 @@
 
 
 # Table of Content
-- [Index Page]index
+- Index Page 
+- Info page
+- Labs
+- Test page
  
-- [info]info page
- 
-- [labs]Labs
- 
-- [test]Test page
- 
- ## index
+ ## Index
  This page ilustrates the course details, languages and softwares used for the lab
  
- ## info
+ ## Info
  This page talks about myself and my background.
  
- ## labs
+ ## Labs
  In this page you will be able to access the link to each of my lab github repocitory
  
- ## test
+ ## Test
  This is just a test page to display the image link samples.
   
  # Authors
