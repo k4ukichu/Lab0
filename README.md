@@ -2,7 +2,7 @@
 
 
 # Table of Content
-- [index]Index Page
+- [Index Page]index
  
 - [info]info page
  
