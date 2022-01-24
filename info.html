@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="styles.css" /> <!-- Calling CSS file here-->
-    <body>
-    <ul class="navbar1">
-        <li><a href="index.html">Home page</a>
-        <li><a href="info.html">My Bio</a>
-        <li><a href="labs.html">My Labs</a>
-        <li><a href="test.html">Test</a>
-      </ul>
-      
-      <!-- Main content -->
-      <body>
-        <title>User Information</title>
-      
-      <h1><u>User Information</u></h1>
-      <table class="center">
-      <tr>
-      <td>Email: </td>
-      <td>krishnakishoremenon@gmail.com</td>
-      </tr>
-      <tr>
-      <td>UserName: </td>
-      <td>Krishnakishore Menon</td>
-      </tr>
-      <tr>
-      <td>Date Of Birth: </td>
-      <td>02-jun-1994</td>
-      </tr>
-      <tr>
-          <td>Bachelors degree:</td>
-          <td> Environmental Sysytems Engineering</td>
-     </tr>
-      <tr><td>Master's Degree:</td>
-    <td>MEng Environmental systems Engineering<br>(Specializing In GIS) </td>
-</tr>
-      </table>
-      <div class="center">
-      <img src="pics/mypic.jpg" alt="mypic" width="500" height="400"> 
-      </div>
-</div>
-      </body>
-      
-      </html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=.7">
+	<link href="styles.css" rel="stylesheet" type="text/css"><!-- Calling CSS file here-->
+	<title>User Information</title>
+  <style>
+    #pic{
+      height: 100%;
+      width: 100%;
+    }
+    @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  </style>
+</head>
+<body>
+	<ul class="navbar1">
+		<li>
+			<a href="index.html">Home page</a>
+		</li>
+		<li>
+			<a href="info.html">My Bio</a>
+		</li>
+		<li>
+			<a href="labs.html">My Labs</a>
+		</li>
+		<li>
+			<a href="test.html">Test</a>
+		</li>
+	</ul><!-- Main content -->
+	<h1><u>User Information</u></h1>
+	<table class="center">
+		<tr>
+			<td>Email:</td>
+			<td>krishnakishoremenon@gmail.com</td>
+		</tr>
+		<tr>
+			<td>UserName:</td>
+			<td>Krishnakishore Menon</td>
+		</tr>
+		<tr>
+			<td>Date Of Birth:</td>
+			<td>02-jun-1994</td>
+		</tr>
+		<tr>
+			<td>Bachelors degree:</td>
+			<td>Environmental Sysytems Engineering</td>
+		</tr>
+		<tr>
+			<td>Master's Degree:</td>
+			<td>MEng Environmental systems Engineering<br>
+			(Specializing In GIS)</td>
+		</tr>
+	</table>
+	<div class="center"><img id="pic" alt="mypic"  src="pics/mypic.jpg" ></div>
+</body>
+</html>
